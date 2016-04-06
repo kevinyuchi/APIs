@@ -23,7 +23,7 @@ public class SalesforceBulkAPIConfigFileHandlerImpl implements ConfigFileHandler
     public final String OUTPUT_DIR = "output_dir";
 
 	/*Config file parser*/
-	public List<com.cisco.sfdc.common.QureyConfigaration> readConfigFile(String configFilePath) throws IOException {
+	public List<QureyConfigaration> readConfigFile(String configFilePath) throws IOException {
 		File configFile = new File(configFilePath);
 		List<QureyConfigaration> configList = new ArrayList<QureyConfigaration>();
         BufferedReader br = new BufferedReader(new FileReader(configFile));

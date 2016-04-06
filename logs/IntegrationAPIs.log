@@ -23,3 +23,32 @@
 2016-04-05 17:48:01.779 [main] INFO  c.c.s.util.CommandLineOptionsParser - Done with parsing!!
 2016-04-05 17:48:01.779 [main] INFO  com.cisco.application.App - Init a salesforce query session.
 2016-04-05 17:48:01.780 [main] DEBUG c.c.s.s.SalesforceQueryServiceImpl - queryConfig=C:\Users\kkaiwen\Downloads\Config.txt
+2016-04-05 20:59:23.304 [main] INFO  com.cisco.application.App - Initialize salesforce analysis app.
+2016-04-05 20:59:25.068 [main] INFO  c.c.s.util.CommandLineOptionsParser - Begin with parsing!!
+2016-04-05 20:59:25.070 [main] INFO  c.c.s.util.CommandLineOptionsParser - Done with parsing!!
+2016-04-05 20:59:25.070 [main] INFO  com.cisco.application.App - Init a salesforce query session.
+2016-04-05 20:59:25.070 [main] DEBUG c.c.s.s.SalesforceQueryServiceImpl - queryConfig = null
+2016-04-05 21:07:44.673 [main] INFO  com.cisco.application.App - Initialize salesforce analysis app.
+2016-04-05 21:07:48.046 [main] INFO  c.c.s.util.CommandLineOptionsParser - Begin with parsing!!
+2016-04-05 21:07:48.047 [main] INFO  c.c.s.util.CommandLineOptionsParser - configPath: /Users/kaiwenyuchi/Documents/config.txt
+2016-04-05 21:07:48.047 [main] INFO  c.c.s.util.CommandLineOptionsParser - Done with parsing!!
+2016-04-05 21:07:48.048 [main] INFO  com.cisco.application.App - Init a salesforce query session.
+2016-04-05 21:07:48.048 [main] DEBUG c.c.s.s.SalesforceQueryServiceImpl - queryConfig = /Users/kaiwenyuchi/Documents/config.txt
+2016-04-05 21:16:55.117 [main] INFO  com.cisco.application.App - Initialize salesforce analysis app.
+2016-04-05 21:16:57.244 [main] INFO  c.c.s.util.CommandLineOptionsParser - Begin with parsing!!
+2016-04-05 21:16:57.246 [main] INFO  c.c.s.util.CommandLineOptionsParser - configPath: /Users/kaiwenyuchi/Documents/config.txt
+2016-04-05 21:16:57.246 [main] INFO  c.c.s.util.CommandLineOptionsParser - Done with parsing!!
+2016-04-05 21:16:57.246 [main] INFO  com.cisco.application.App - Init a salesforce query session.
+2016-04-05 21:16:57.246 [main] DEBUG c.c.s.s.SalesforceQueryServiceImpl - queryConfig = /Users/kaiwenyuchi/Documents/config.txt
+2016-04-05 21:21:02.159 [main] INFO  com.cisco.application.App - Initialize salesforce analysis app.
+2016-04-05 21:21:02.807 [main] INFO  c.c.s.util.CommandLineOptionsParser - Begin with parsing!!
+2016-04-05 21:21:02.809 [main] INFO  c.c.s.util.CommandLineOptionsParser - configPath: /Users/kaiwenyuchi/Documents/config.txt
+2016-04-05 21:21:02.809 [main] INFO  c.c.s.util.CommandLineOptionsParser - Done with parsing!!
+2016-04-05 21:21:02.809 [main] INFO  com.cisco.application.App - Init a salesforce query session.
+2016-04-05 21:21:02.809 [main] DEBUG c.c.s.s.SalesforceQueryServiceImpl - queryConfig = /Users/kaiwenyuchi/Documents/config.txt
+2016-04-05 21:22:20.108 [main] INFO  com.cisco.application.App - Initialize salesforce analysis app.
+2016-04-05 21:22:21.892 [main] INFO  c.c.s.util.CommandLineOptionsParser - Begin with parsing!!
+2016-04-05 21:22:21.894 [main] INFO  c.c.s.util.CommandLineOptionsParser - configPath: /Users/kaiwenyuchi/Documents/config.txt
+2016-04-05 21:22:21.894 [main] INFO  c.c.s.util.CommandLineOptionsParser - Done with parsing!!
+2016-04-05 21:22:21.894 [main] INFO  com.cisco.application.App - Init a salesforce query session.
+2016-04-05 21:22:21.894 [main] DEBUG c.c.s.s.SalesforceQueryServiceImpl - queryConfig = /Users/kaiwenyuchi/Documents/config.txt

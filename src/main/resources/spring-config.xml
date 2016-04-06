@@ -13,6 +13,7 @@
 	       http://www.springframework.org/schema/task http://www.springframework.org/schema/task/spring-task-4.2.xsd">
     	<bean id="instance" class="com.cisco.common.Instance"/>
     	<bean id="queryService" class="com.cisco.sfdc.service.SalesforceQueryServiceImpl"/>
+    	<bean id="configFileHandler" class="com.cisco.sfdc.handler.SalesforceBulkAPIConfigFileHandlerImpl"/>
     	<beans profile="prod">
 	    	<context:property-placeholder location="classpath:prod.properties" />
 		</beans>
