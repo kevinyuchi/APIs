@@ -1,0 +1,25 @@
+2016-04-05 14:39:21.106 [main] INFO  com.cisco.application.App - Initialize salesforce analysis app.
+2016-04-05 14:39:21.825 [main] INFO  c.c.s.util.CommandLineOptionsParser - Begin with parsing!!
+2016-04-05 14:39:21.826 [main] INFO  c.c.s.util.CommandLineOptionsParser - Done with parsing!!
+2016-04-05 14:39:21.826 [main] INFO  com.cisco.application.App - Init a salesforce query session.
+2016-04-05 17:34:48.380 [main] INFO  com.cisco.application.App - Initialize salesforce analysis app.
+2016-04-05 17:34:48.886 [main] INFO  c.c.s.util.CommandLineOptionsParser - Begin with parsing!!
+2016-04-05 17:34:48.887 [main] INFO  c.c.s.util.CommandLineOptionsParser - configPath: C:\Users\kkaiwen\Box
+2016-04-05 17:34:48.887 [main] INFO  c.c.s.util.CommandLineOptionsParser - Done with parsing!!
+2016-04-05 17:34:48.887 [main] INFO  com.cisco.application.App - Init a salesforce query session.
+2016-04-05 17:36:09.802 [main] INFO  com.cisco.application.App - Initialize salesforce analysis app.
+2016-04-05 17:36:10.567 [main] INFO  c.c.s.util.CommandLineOptionsParser - Begin with parsing!!
+2016-04-05 17:36:10.568 [main] INFO  c.c.s.util.CommandLineOptionsParser - configPath: C:\Users\kkaiwen\Downloads
+2016-04-05 17:36:10.568 [main] INFO  c.c.s.util.CommandLineOptionsParser - Done with parsing!!
+2016-04-05 17:36:10.569 [main] INFO  com.cisco.application.App - Init a salesforce query session.
+2016-04-05 17:36:42.938 [main] INFO  com.cisco.application.App - Initialize salesforce analysis app.
+2016-04-05 17:36:43.781 [main] INFO  c.c.s.util.CommandLineOptionsParser - Begin with parsing!!
+2016-04-05 17:36:43.782 [main] INFO  c.c.s.util.CommandLineOptionsParser - configPath: C:\Users\kkaiwen\Downloads\Config.txt
+2016-04-05 17:36:43.782 [main] INFO  c.c.s.util.CommandLineOptionsParser - Done with parsing!!
+2016-04-05 17:36:43.782 [main] INFO  com.cisco.application.App - Init a salesforce query session.
+2016-04-05 17:48:01.077 [main] INFO  com.cisco.application.App - Initialize salesforce analysis app.
+2016-04-05 17:48:01.778 [main] INFO  c.c.s.util.CommandLineOptionsParser - Begin with parsing!!
+2016-04-05 17:48:01.779 [main] INFO  c.c.s.util.CommandLineOptionsParser - configPath: C:\Users\kkaiwen\Downloads\Config.txt
+2016-04-05 17:48:01.779 [main] INFO  c.c.s.util.CommandLineOptionsParser - Done with parsing!!
+2016-04-05 17:48:01.779 [main] INFO  com.cisco.application.App - Init a salesforce query session.
+2016-04-05 17:48:01.780 [main] DEBUG c.c.s.s.SalesforceQueryServiceImpl - queryConfig=C:\Users\kkaiwen\Downloads\Config.txt
