@@ -24,7 +24,9 @@ public class SalesforceBulkAPIConfigFileHandlerImpl implements ConfigFileHandler
 
 	/*Config file parser*/
 	public List<QureyConfigaration> readConfigFile(String configFilePath) throws IOException {
+		logger.debug("Config File Path = {}",configFilePath);
 		File configFile = new File(configFilePath);
+	    logger.debug("Config file existed : {} and it is a file : {}",configFile.exists(),configFile.isFile());
 		List<QureyConfigaration> configList = new ArrayList<QureyConfigaration>();
         BufferedReader br = new BufferedReader(new FileReader(configFile));
         String configStr = new String();

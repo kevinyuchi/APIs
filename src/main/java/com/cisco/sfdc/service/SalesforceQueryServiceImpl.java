@@ -13,6 +13,7 @@ import com.cisco.sfdc.api.BulkApi;
 import com.cisco.sfdc.common.OauthTokens;
 import com.cisco.sfdc.common.QureyConfigaration;
 import com.cisco.sfdc.handler.ConfigFileHandler;
+import com.cisco.sfdc.handler.SalesforceBulkAPIConfigFileHandlerImpl;
 import com.cisco.sfdc.helper.SalesforceQueryHelper;
 import com.sforce.async.AsyncApiException;
 import com.sforce.ws.ConnectionException;
@@ -29,6 +30,7 @@ public class SalesforceQueryServiceImpl implements QueryService{
 		List<QureyConfigaration> configList = null;
 		logger.debug("queryConfig = {}",queryConfig);
 		try{
+			logger.debug("queryConfig = {}, and config file handler = {}",queryConfig,configHandler);
 			configList = configHandler.readConfigFile(queryConfig);	
 		}catch(IOException e){
 			logger.error("Failed to read the configuration file.");

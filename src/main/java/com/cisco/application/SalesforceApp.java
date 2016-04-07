@@ -26,7 +26,8 @@ public class SalesforceApp {
         }
 
         System.setProperty("spring.profiles.active", env);
-        ApplicationContext context = new ClassPathXmlApplicationContext("spring-config.xml");
+        @SuppressWarnings("resource")
+		ApplicationContext context = new ClassPathXmlApplicationContext("spring-config.xml");
 
         CommandLineOptions option = new CommandLineOptions();
         String configPath = null;
@@ -36,7 +37,7 @@ public class SalesforceApp {
         } catch (IllegalArgumentException e) {
             logger.error("Exception : Miss some requried arguments", e);
         }
-        QueryService queryService = context.getBean(QueryService.class);
+        QueryService queryService = (QueryService) context.getBean("queryService");
         logger.info("Init a salesforce query session.");
         /*initial or reset all job running status to scheduled*/
         queryService.query(configPath);
