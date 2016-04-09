@@ -37,7 +37,7 @@ public class SalesforceApp {
         } catch (IllegalArgumentException e) {
             logger.error("Exception : Miss some requried arguments", e);
         }
-        QueryService queryService = (QueryService) context.getBean("queryService");
+        QueryService queryService = context.getBean(QueryService.class);
         logger.info("Init a salesforce query session.");
         /*initial or reset all job running status to scheduled*/
         queryService.query(configPath);
