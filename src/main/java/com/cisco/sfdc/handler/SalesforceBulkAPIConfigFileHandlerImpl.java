@@ -43,6 +43,7 @@ public class SalesforceBulkAPIConfigFileHandlerImpl implements ConfigFileHandler
 	
 	/*Config Interpreter*/
 	public QureyConfigaration readConfig(String configStr) {
+		logger.debug("Read Config in Json String : {}",configStr);
 		JSONObject configJson = new JSONObject(configStr);
 		QureyConfigaration config = new QureyConfigaration(
 				configJson.getString(USER_NAME),
