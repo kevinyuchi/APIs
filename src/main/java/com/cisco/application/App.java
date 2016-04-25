@@ -6,16 +6,12 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 import com.cisco.common.Instance;
 
 
-
 /**
  * Hello world!
- *
  */
-public class App 
-{
-    public static void main( String[] args )
-    {
-    	ApplicationContext context = new ClassPathXmlApplicationContext("spring-config.xml");
+public class App {
+    public static void main(String[] args) {
+        ApplicationContext context = new ClassPathXmlApplicationContext("spring-config.xml");
         Instance ins = context.getBean(Instance.class);
         ins.print();
     }
