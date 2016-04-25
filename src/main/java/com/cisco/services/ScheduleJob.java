@@ -1,6 +1,8 @@
 package com.cisco.services;
 
 import org.springframework.stereotype.Component;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 
 /**
  * Created by kkaiwen on 4/22/2016.
@@ -9,10 +11,10 @@ import org.springframework.stereotype.Component;
 @Component
 public class ScheduleJob {
 
-    private static final SimpleDateFormat dateFormat = new SimpleDateFormat("HH:mm:ss");
-
-    @Scheduled(fixedRate = 5000)
     public void reportCurrentTime() {
+        SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss.SSSSSS");
         System.out.println("The time is now " + dateFormat.format(new Date()));
     }
+
+
 }
